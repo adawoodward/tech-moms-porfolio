@@ -1,2 +1,2 @@
 # tech-moms-portfolio
-# tech-moms-porfolio
+# tech-moms-portfolio
