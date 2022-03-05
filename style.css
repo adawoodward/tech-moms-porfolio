@@ -105,7 +105,7 @@ nav a {
 }
 
 .columns-wrapper {
-    grid-column: 1 / span 3;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -119,6 +119,9 @@ nav a {
     transition: 1s;
 }
 
+.work-container {
+    grid-column: 1/4;
+}
 
 
 .footer-container {
@@ -166,13 +169,13 @@ nav a {
     margin-right: 30px;
 }
 
-.behance-icon {
+/* .behance-icon {
     height: 23px;
     width: 23px;
     margin-right: 30px;
 }
 
-.dribble-icon {
+/* .dribble-icon {
     height: 23px;
     width: 23px;
 } */
