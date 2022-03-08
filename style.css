@@ -44,6 +44,13 @@ nav a {
 
 }
 
+a:hover {
+    color: #BCCA99;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+
 .main-container {
     grid-column: 1/2;
     grid-row: 2;
@@ -53,7 +60,6 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 
 .intro-container {
