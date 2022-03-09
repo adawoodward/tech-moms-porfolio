@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 45vw 30vw 25vw;
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+}
+
+.header-container {
+    grid-column: 1/4;
+    grid-row: 1;
+    padding: 13px;
+    background-color: #f0e9e0;
+}
+
+.logo-position {
+    float: left;
+    position: absolute;
+    left: 35px;
+    top: 1px;
+    width: 120px;
+    height: 100px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: end;
+    -webkit-justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    font-size: 15px;
+    color: #333;
+    font-weight: 900;
+    margin: 0 20px;
+
+}
+
+a:hover {
+    color: gray;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
