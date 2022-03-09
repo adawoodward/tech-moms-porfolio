@@ -45,7 +45,7 @@ nav a {
 }
 
 a:hover {
-    color: #BCCA99;
+    color: gray;
     letter-spacing: 2px;
     transition: 0.5s;
 }
