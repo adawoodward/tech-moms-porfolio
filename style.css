@@ -7,7 +7,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 2fr 2fr 1fr;
     grid-template-columns: 45vw 30vw 25vw;
-    height: 70vh;
+    height: 15vh;
     width: 100%;
     background-color: white;
 }
@@ -55,8 +55,8 @@ a:hover {
     grid-column: 1/2;
     grid-row: 2;
     height: 56vh;
-    background-image: url(assets/maincontainer.jpg);
-    background-attachment: scroll;
+    background-image: url(assets/mainimage.jpg);
+    /* background-attachment: scroll; */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -161,8 +161,7 @@ a:hover {
 .icons-flex {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: 130px;
+    width: 155px;
     margin-top: 15px;
     margin-bottom: 0px;
 }
@@ -171,19 +170,6 @@ a:hover {
 .top-button {
     display: flex;
     justify-content: flex-end;
-}
-
-.footer-flex {
-    font-weight: bold;
-    color:#333;
-    text-decoration: none;
-    transition: 0.5s;
-    text-align: center;
-}
-
-footer-flex:hover {
-    color: #EEBBA3;
-    letter-spacing: 2px;
 }
 
 .icons8 {
