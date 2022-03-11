@@ -12,6 +12,7 @@ body {
     background-color: #f0e9e0;
     height: 15vh;
     width: 100%;
+    background-size: cover;
     justify-content: center;
     align-items: center;
 }
@@ -79,6 +80,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .intro-card {
@@ -102,9 +104,9 @@ a:hover {
 .intro-section {
     background-image: url(../../assets/about_background.jpg);
     height: 500px;
-    width: 1440px;
+    width: 100%;
     /* background-attachment: fixed; */
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -118,11 +120,11 @@ a:hover {
 }
 
 .status-section {
-    background-image: url(../../assets/status.jpg);
+    background-color: #D9D9D9;
     height: 500px;
-    width: 1440px;
+    width: 100%;
     /* background-attachment: fixed; */
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -150,6 +152,20 @@ a:hover {
     text-align: right;
 }
 
+.status-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 .vdiagram-image {
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.vdiagram-description {
+    margin-left: 10px;
 }

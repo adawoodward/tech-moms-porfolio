@@ -5,11 +5,11 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-rows: 1fr 2fr 2fr 1fr;
-    grid-template-columns: 45vw 30vw 25vw;
-    height: 15vh;
+    grid-template-rows: 10vh;
+    grid-template-columns: 25vw 50vw 25vw;
+    height: 10vh;
     width: 100%;
-    background-color: white;
+    /* background-color: #f19920; */
 }
 
 .header-container {
@@ -52,64 +52,68 @@ a:hover {
 
 
 .main-container {
-    grid-column: 1/2;
-    grid-row: 2;
-    height: 56vh;
-    background-image: url(assets/mainimage.png);
-    /* background-attachment: scroll; */
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    height: 605px;
+    background-color: #f19920;
 }
 
+.main-photo-container {
+    justify-content: center;
+}
 
 .intro-container {
-    grid-column: 2/3;
-    grid-row: 2;
-    justify-content: right;
-    padding: 5px;
-    background-color: #EEBBA3;
-
+    width: 1300px;
+    height: 605px;
+    align-items: center;
+    justify-content: center;
 }
 
-.image-container {
-    grid-column: 3/4;
-    grid-row: 2;
-    background-color: #EEBBA3;
+
+.intro-card {
+    padding-left: 20px;
+    align-items: center;
 }
 
-.intro-image {
-    display: flex;
-    align-items: left;
-    background-image: url(assets/ada_won.png);
-    background-color: #EEBBA3;
-    background-attachment: scroll;
-    height: 280px;
-    width: 280px;
-    margin: 50px 70px 10px 0px;
+.right-container {
+    background-image: url(assets/right-column.png);
+    justify-content: center;
+    height: 605px;
+    width: 605px;
+    background-repeat: no-repeat;
+    background-size: 605px;
 }
+
 
 
 .intro-accent {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 25px;
     color: #333;
-    padding: 10px 30px 10px 10px;
+    padding: 20px 40px 40px 20px;
 }
 
 .intro-title {
-    font-size: 30px;
-    font-weight: bold;
-    padding-left: 10px;
-    width: 400px;
-    border-bottom: 5px solid black;
+    display: flex;
+    font-size: 73px;
+    font-family: 'Shrikhand', cursive;
+    color: #732817;
+    letter-spacing: 3px;;
+    border-bottom: 5px solid #732817;
+    border-radius: 5px;
+    justify-content: center;
 }
+
+.intro-image {
+    margin-top: 100px;
+}
+
 
 .intro-tagline {
     font-size: 16px;
     line-height: 25px;
     color: #333;
-    padding-left: 10px;
-    margin-top: 10px;
+    padding-left: 30px;
+    margin-top: 40px;
 }
 
 .columns-wrapper {
