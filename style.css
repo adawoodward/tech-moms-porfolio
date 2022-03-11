@@ -83,6 +83,14 @@ a:hover {
     background-size: 605px;
 }
 
+.columns-wrapper {
+    background-image: url(assets/index-bottom.png);
+    background-repeat: no-repeat;
+    height: 605px;
+    width: 605px;
+}
+
+
 
 
 .intro-accent {
@@ -119,21 +127,38 @@ a:hover {
 .columns-wrapper {
     display: flex;
     justify-content: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    overflow: scroll;
+    text-align: center;
+    background-image: url(assets/index-bottom.png);
+    background-size: auto;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
 }
 
 .column {
     overflow: scroll;
-    margin: 42px;
     text-align: center;
-    border-bottom: 5px solid transparent;
-    border-radius: 10px;
-    transition: 1s;
+    background-image: url(assets/index-bottom.png);
+    background-size: auto;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: auto;
 }
 
 .work-container {
-    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    background-image: url(assets/index-bottom.png);
+    background-size: 650px;
+    background-repeat: repeat;
 }
+
 
 
 .footer-container {
@@ -172,9 +197,13 @@ a:hover {
 
 
 .top-button {
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
 }
+
+
 
 .icons8 {
     font-size: 10px;
