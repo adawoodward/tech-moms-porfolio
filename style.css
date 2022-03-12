@@ -131,6 +131,7 @@ a:hover {
     display: flex;
     margin-top: 120px;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 .middle-column{
@@ -142,20 +143,20 @@ a:hover {
     background-repeat: no-repeat;
     align-items: center;
     width: 50vw;
+    background-color: #cae2cb;
 } 
 
 
-.column column-one {
+.column.column-one {
     justify-content: flex-end;
     align-items: baseline;
-    background-color: #cae2cb;
     empty-cells: show;
     margin-left: 100px;
 }
 
 
 
-.column column-two {
+.column.column-two {
     justify-content: center;
     overflow: scroll;
     text-align: center;
@@ -163,7 +164,7 @@ a:hover {
     align-items: center;
 }
 
-.column column-three {
+.column.column-three {
     overflow: scroll;
     text-align: center;
     justify-content: center;
@@ -171,8 +172,10 @@ a:hover {
 }
 
 
-.column column-four {
+.column.column-four {
     display: flex;
+    justify-content: end;
+    align-items: flex-end;
     height: 650px;
 }
 
@@ -212,9 +215,7 @@ a:hover {
     margin-bottom: 0px;
 }
 
-
 .top-button a {
-    position: absolute;
     z-index: 1;
 }
 
