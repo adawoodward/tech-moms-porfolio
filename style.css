@@ -90,6 +90,16 @@ a:hover {
     width: 605px;
 }
 
+.left-space {
+    background-color: #cae2cb;
+}
+
+.right-space {
+    background-color: #cae2cb;
+}
+
+
+
 
 
 
@@ -156,7 +166,7 @@ a:hover {
     justify-content: center;
     background-image: url(assets/index-bottom.png);
     background-size: 650px;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 
@@ -194,6 +204,21 @@ a:hover {
     margin-top: 15px;
     margin-bottom: 0px;
 }
+
+
+.top-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/index-bottom.png);
+    background-size: 650px;
+    background-repeat: repeat;
+}
+
+
+
+
 
 
 .top-button {
