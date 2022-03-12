@@ -23,7 +23,8 @@ body {
     float: left;
     position: absolute;
     left: 35px;
-    top: 1px;
+    top: 5px;
+    margin-left: 50px;
     width: 120px;
     height: 100px;
 }
@@ -55,6 +56,8 @@ a:hover {
     display: flex;
     height: 605px;
     background-color: #f19920;
+    position: relative;
+    width: 100%;
 }
 
 .main-photo-container {
@@ -99,11 +102,13 @@ a:hover {
     border-bottom: 5px solid #732817;
     border-radius: 5px;
     justify-content: center;
+    position: relative;
 }
 
 .intro-image {
     margin-top: 100px;
     margin-right: 20px;
+    position: relative;
 }
 
 
@@ -144,6 +149,7 @@ a:hover {
     align-items: center;
     width: 50vw;
     background-color: #cae2cb;
+    border-radius: 10px;
 } 
 
 
@@ -151,7 +157,7 @@ a:hover {
     justify-content: flex-end;
     align-items: baseline;
     empty-cells: show;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 
@@ -176,7 +182,7 @@ a:hover {
     display: flex;
     justify-content: end;
     align-items: flex-end;
-    height: 650px;
+    /* height: 650px; */
 }
 
 
