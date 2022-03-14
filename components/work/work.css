@@ -71,3 +71,19 @@ a:hover {
     margin-bottom: 0px;
     align-items: baseline;
 }
+
+
+/* 
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: pink; 
+} */
+
+.table {
+    height: 100%;
+    background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
+}
