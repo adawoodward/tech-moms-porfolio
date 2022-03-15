@@ -64,42 +64,39 @@ a:link {
 
 
 .main-container {
-    align-items: center;
-    justify-content: center;
-    /* position: relative; */
-    display: flex;
     height: 605px;
     width: 100%;
     background-color: #124c59;
 }
 
+
+.main-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main-photo-container {
-    justify-content: center;
     align-items: center;
     height: 605px;
 }
 
 .intro-container {
-    width: 66%;
+    width: 76%;
     height: 605px;
     align-items: center;
-    justify-content: center;
 }
 
 
 .intro-card {
-    padding-left: 20px;
     align-items: center;
 }
-
-
-
 
    
 .intro-right {
     display: flex;
     background-image: url(assets/orangewindow.png);
-    width: 66%;
+    width: 77%;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -108,9 +105,9 @@ a:link {
 
 .intro-accent {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 22px;
     color: #333;
-    padding: 20px 40px 40px 20px;
+    padding: 90px 0px 0px 40px;
 }
 
 .intro-title {
@@ -118,40 +115,80 @@ a:link {
     font-size: 73px;
     font-family: 'Shrikhand', cursive;
     color: #732817;
-    letter-spacing: 3px;;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    border-bottom: 5px solid #732817;
-    border-radius: 5px;
     justify-content: center;
+    align-items: center;
     position: relative;
-    text-shadow: 7px 7px 10px #f7abbd;
+    text-shadow: 7px 7px 10px #FFF9B2;
+    padding-top: 15px;
+}
+
+
+.right-image-container {
+    position: relative;
+    width: 100%;
 }
 
 .intro-image {
-    margin-top: 100px;
-    margin-right: 20px;
-    position: relative;
+    /* display: block; */
+    width: 100%;
+    height: auto;
+    margin-top: 310px;
 }
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    transition: .5s ease;
+    /* background-image: url(assets/graphic-me.png); */
+  }
+  
+  .right-image-container:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 
 
 .intro-tagline {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 20px;
+    /* line-height: 25px; */
     color: #333;
     padding-left: 30px;
-    margin-top: 40px;
+    padding-top: 40px;
+    margin-left: 300px;
+    justify-content: right;
 }
-
 
 .work-container {
     display: flex;
     flex-direction: column;
-    background-image: url(assets/orange-red-white.png);
-    height: 720px;
+    background-color: #3c7f72;
+    height: 650px;
+    width: 100%;
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    justify-content: center;
 }
 
 .columns-wrapper {
@@ -170,8 +207,6 @@ a:link {
     background-repeat: no-repeat;
     align-items: center;
     width: 50vw;
-    background-color: #52c3be;
-    border-radius: 10px;
 } 
 
 
@@ -183,7 +218,7 @@ a:link {
 }
 
 
-
+/* 
 .column.column-two {
     justify-content: center;
     overflow: scroll;
@@ -197,7 +232,7 @@ a:link {
     text-align: center;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
 .column.column-four {
