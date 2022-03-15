@@ -5,28 +5,29 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-rows: 15vh;
+    grid-template-rows: 13vh;
     grid-template-columns: 25vw 50vw 25vw;
-    /* height: 10vh; */
     width: 100%;
     /* background-color: #f19920; */
 }
 
+
+
+
 .header-container {
     grid-column: 1/4;
     grid-row: 1;
-    padding: 13px;
+    /* padding: 13px; */
     background-color: #f0e9e0;
+    height: 13vh;
 }
 
-.logo-position {
+.logo {
     float: left;
     position: absolute;
-    left: 35px;
+    left: 45px;
     top: 5px;
-    margin-left: 50px;
-    width: 120px;
-    height: 100px;
+    align-items: flex-start;
 }
 
 .header-flex {
@@ -34,7 +35,13 @@ body {
     justify-content: end;
     -webkit-justify-content: flex-end;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
+    margin-top: 25px;
+}
+
+
+nav {
+    margin-top: 40px;
 }
 
 nav a {
@@ -42,7 +49,7 @@ nav a {
     color: #333;
     font-weight: 900;
     margin: 0 20px;
-
+    align-items: flex-end;
 }
 
 a:hover {
@@ -56,11 +63,14 @@ a:link {
 }
 
 
-
 .main-container {
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
     display: flex;
     height: 605px;
     width: 100%;
+    background-color: #124c59;
 }
 
 .main-photo-container {
@@ -70,7 +80,7 @@ a:link {
 }
 
 .intro-container {
-    width: 1300px;
+    width: 66%;
     height: 605px;
     align-items: center;
     justify-content: center;
@@ -82,24 +92,17 @@ a:link {
     align-items: center;
 }
 
-/* .right-container {
-    background-color: #f19920;
-    justify-content: center;
-    height: 605px;
-    width: 605px;
-    background-repeat: no-repeat;
-    background-size: 605px;
-} */
 
-.main-container {
-    background-image: url(assets/pink-teal.png);
-    align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
+
 
    
+.intro-right {
+    display: flex;
+    background-image: url(assets/orangewindow.png);
+    width: 66%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 

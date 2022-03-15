@@ -73,17 +73,62 @@ a:hover {
 }
 
 
-/* 
-#background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: pink; 
-} */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #124c59;
+    justify-content: center;
+    align-items: center;
+}
 
-.table {
-    height: 100%;
-    background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.footer-container {
+    /* padding: 10px; */
+    height: 82px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column: -4 / -1;
+    background-color: #f0e9e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons8 {
+    font-size: 10px;
+    color: lightgray;
+    text-align: right;
 }
