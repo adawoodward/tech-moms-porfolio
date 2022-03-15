@@ -11,9 +11,6 @@ body {
     /* background-color: #f19920; */
 }
 
-
-
-
 .header-container {
     grid-column: 1/4;
     grid-row: 1;
@@ -102,7 +99,6 @@ a:link {
 }
 
 
-
 .intro-accent {
     text-transform: uppercase;
     font-size: 22px;
@@ -161,8 +157,8 @@ a:link {
     font-size: 20px;
     position: absolute;
     overflow: hidden;
-    top: 70%;
-    left: 50%;
+    top: 80%;
+    left: 48%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
