@@ -14,7 +14,6 @@ body {
 .header-container {
     grid-column: 1/4;
     grid-row: 1;
-    /* padding: 13px; */
     background-color: #f0e9e0;
     height: 13vh;
 }
@@ -23,7 +22,7 @@ body {
     float: left;
     position: absolute;
     left: 45px;
-    top: 5px;
+    top: 12px;
     align-items: flex-start;
 }
 
@@ -32,13 +31,12 @@ body {
     justify-content: end;
     -webkit-justify-content: flex-end;
     align-items: center;
-    /* padding: 20px; */
     margin-top: 25px;
 }
 
 
 nav {
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 nav a {
@@ -69,18 +67,19 @@ a:link {
 
 .main-contents {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
 
 .main-photo-container {
     align-items: center;
-    height: 605px;
+    justify-content: space-evenly;
+    height: 600px;
 }
 
 .intro-container {
-    width: 76%;
-    height: 605px;
+    width: 80%;
     align-items: center;
 }
 
@@ -92,18 +91,21 @@ a:link {
    
 .intro-right {
     display: flex;
+    width: 65%;
     background-image: url(assets/orangewindow.png);
-    width: 77%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 70% 95%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 .intro-accent {
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
     color: #333;
-    padding: 90px 0px 0px 40px;
+    padding: 30px 0px 0px 20px;
 }
 
 .intro-title {
@@ -117,7 +119,7 @@ a:link {
     align-items: center;
     position: relative;
     text-shadow: 7px 7px 10px #FFF9B2;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 
@@ -130,7 +132,7 @@ a:link {
     /* display: block; */
     width: 100%;
     height: auto;
-    margin-top: 310px;
+    margin-top: 290px;
 }
 
 
@@ -165,12 +167,12 @@ a:link {
 
 
 .intro-tagline {
-    font-size: 20px;
+    font-size: 18px;
     /* line-height: 25px; */
     color: #333;
     padding-left: 30px;
-    padding-top: 40px;
-    margin-left: 300px;
+    padding-top: 10px;
+    margin-left: 200px;
     justify-content: right;
 }
 
@@ -202,7 +204,7 @@ a:link {
     justify-content: center;
     background-repeat: no-repeat;
     align-items: center;
-    width: 50vw;
+    width: 100vw;
 } 
 
 
