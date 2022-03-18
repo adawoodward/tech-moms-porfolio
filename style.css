@@ -25,7 +25,7 @@
 
 body {
     margin: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .grid-container {
@@ -58,12 +58,13 @@ body {
     justify-content: end;
     -webkit-justify-content: flex-end;
     align-items: center;
-    margin-top: 25px;
+    /* margin-top: 25px; */
+    margin-right: 25px;
 }
 
 
 nav {
-    margin-top: 45px;
+    margin-top: 25px;
 }
 
 nav a {
@@ -78,6 +79,7 @@ a:hover {
     color: gray;
     letter-spacing: 2px;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 a:link {
@@ -90,9 +92,10 @@ a:link {
     background-image: url(assets/main-background.png);
     display: grid;
     grid-template-rows: 325px 325px;
-    grid-template-columns: 20vw 55vw 12.5vw 12.5vw;
+    grid-template-columns: 15vw 55vw 15vw 15vw;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .center-container {
@@ -101,6 +104,10 @@ a:link {
     background-color: #124c59;
     height: 550px;
     align-items: center;
+    background-image: url(assets/mint-box.png);
+    background-repeat: no-repeat;
+    background-size: 75% 90%;
+    justify-content: center;
 }
 
 .accent-container {
@@ -110,7 +117,7 @@ a:link {
 }
 
 .intro-accent {
-    background-image: url(assets/sticky.png);
+    background-image: url(assets/cream-box.png);
     background-repeat: no-repeat;
     background-size: 300px 300px;
     position: relative;
@@ -120,65 +127,56 @@ a:link {
     align-items: center;
     grid-row: 1;
     grid-column: 3/5;
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.accent-description {
+    padding: 20px;
 }
 
 .intro-greeting {
-    /* padding: 15px; */
     align-items: center;
     color: #732817;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-family: 'Shrikhand', cursive;
-    text-shadow: 7px 7px 10px #FFF9B2;
-    padding-top: 10px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Fredoka', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-
-.title-container {
-    background-image: url(assets/orange-window.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    grid-column: 2/4;
-    grid-row: 1/2;
-    /* position: relative; */
-    width: 100%;
-    height: 100%;
-    margin-top: 5px;
-}
-
-/* .intro-container {
-    background-image: url(assets/main-background.png);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-/* .intro-accent {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  } */
 
 .intro-title {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* position: relative; */
     justify-content: space-evenly;
+    padding: 15px;
+    margin-left: 30px;
 }
 
 .intro-tagline {
-    font-size: 15px;
+    font-size: 18px;
     /* line-height: 25px; */
     color: #333;
-    padding-left: 30px;
-    padding-top: 10px;
+    padding-top: 5px;
     align-items: center;
+    text-align: start;
+    text-align: -webkit-auto;
+    margin-left: 60px;
+    line-height: 1.5;
+}
+
+.intro-title button {
+    width: 100px;
+    background-color: #3c7f72;
+    font-size: 15px;
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid;
+    color: white;
+    margin-top: 20px;
+    margin-left: 400px;
 }
 
 .image-container {
@@ -195,11 +193,12 @@ a:link {
     display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .overlay {
     position: absolute;
-    bottom: 0px;
+    bottom: -10px;
     right: 0px;
     left: 100%;
     overflow: hidden;
@@ -217,6 +216,7 @@ a:link {
     white-space: nowrap; 
     color: white;
     font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
     position: absolute;
     overflow: hidden;
     top: 80%;
@@ -224,6 +224,10 @@ a:link {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+.goal {
+    font-size: 18px;
+} 
 
 .work-container {
     display: flex;
@@ -286,6 +290,13 @@ a:link {
 
 .footer-description {
     color: #333;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+.footer-description:visited {
+    color: #333;
+    text-decoration: none;
 }
 
 .link-wrapper {
