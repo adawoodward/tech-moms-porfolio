@@ -90,6 +90,8 @@ a:link {
 .main-container {
     height: 650px;
     background-image: url(assets/main-background.png);
+    background-color: #124c59;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-rows: 325px 325px;
     grid-template-columns: 15vw 55vw 15vw 15vw;
