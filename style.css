@@ -221,7 +221,7 @@ a:link {
 
 .overlay {
     position: absolute;
-    bottom: -10px;
+    bottom: -12px;
     right: 0px;
     left: 100%;
     overflow: hidden;
@@ -249,7 +249,7 @@ a:link {
   }
 
 .goal {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.5;
     justify-content: center;
 } 
