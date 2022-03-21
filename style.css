@@ -41,7 +41,7 @@
         justify-content: end;
         -webkit-justify-content: flex-end;
         align-items: center;
-        /* margin-top: 25px; */
+        margin-top: 40px;
         margin-right: 25px;
     }
 
@@ -50,7 +50,7 @@
         color: #333;
         font-weight: 900;
         margin: 0 20px;
-        align-items: flex-end;
+        align-items: center;
     }
 
     a:hover {
