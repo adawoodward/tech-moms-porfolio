@@ -1,27 +1,24 @@
-/* 
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
-
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-}
-
-
-@media only screen and (max-width: 620px) {
-    .header-container {
-        grid-column: 1/4;
-        grid-row: 1;
-        background-color: #f0e9e0;
-        height: 16vh;
+@media screen and (min-width: 1280px) {
+    /* For Big TV's (HD Screens)  */
+    .main-container {
+        width: 1250px;
     }
-} */
+}
+    
+    
+@media screen and (min-width: 1920px) {
+    /* For Projectors or Higher Resolution Screens (Full HD) */
+    .main-container {
+        width: 1890px;
+    }
+}
 
+@media screen and (min-width: 3840px) {
+    /* For 4K Displays (Ultra HD) */
+    .main-container {
+        width: 3810px;
+    }
+}
 
 body {
     margin: 0;
@@ -104,13 +101,27 @@ a:link {
     grid-column: 2/3;
     grid-row: 1/3;
     background-color: #124c59;
-    height: 550px;
+    /* height: 550px; */
     align-items: center;
+    /* margin-left: 20px; */
     background-image: url(assets/mint-box.png);
     background-repeat: no-repeat;
-    background-size: 75% 90%;
-    justify-content: center;
+    background-size: 90% 100%;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 10px;
+    padding: 30px;
 }
+
+/* .title-container {
+    background-image: url(assets/mint-box.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    justify-content: center;
+} */
+
 
 .accent-container {
     align-content: center;
@@ -133,7 +144,7 @@ a:link {
 }
 
 .accent-description {
-    padding: 20px;
+    padding: 10px;
 }
 
 .intro-greeting {
@@ -142,19 +153,27 @@ a:link {
     font-size: 70px;
     font-weight: 500;
     font-family: 'Fredoka', sans-serif;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 20px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 10px; */
+    /* padding-left: 20px; */
+    justify-content: center;
 }
 
 .intro-title {
     display: flex;
+    /* background-image: url(assets/mint-box.png);
+    background-repeat: no-repeat;
+    background-size: 600px 600px; */
+    /* justify-content: center; */
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 15px;
-    margin-left: 30px;
+    justify-content: flex-start;
+    margin-right: 80px;
+    /* margin-left: 30px; */
+    padding-top: 20px;
 }
+
 
 .intro-tagline {
     font-size: 18px;
@@ -164,11 +183,12 @@ a:link {
     align-items: center;
     text-align: start;
     text-align: -webkit-auto;
-    margin-left: 60px;
     line-height: 1.5;
+    justify-content: flex-start;
+
 }
 
-.intro-title button {
+.accent-description button {
     width: 100px;
     background-color: #3c7f72;
     font-size: 15px;
@@ -178,7 +198,8 @@ a:link {
     border: 3px solid;
     color: white;
     margin-top: 20px;
-    margin-left: 400px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .image-container {
@@ -200,7 +221,7 @@ a:link {
 
 .overlay {
     position: absolute;
-    bottom: -10px;
+    bottom: -12px;
     right: 0px;
     left: 100%;
     overflow: hidden;
@@ -228,7 +249,9 @@ a:link {
   }
 
 .goal {
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.5;
+    justify-content: center;
 } 
 
 .work-container {
