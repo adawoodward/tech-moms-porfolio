@@ -144,7 +144,7 @@ a:link {
 }
 
 .accent-description {
-    padding: 20px;
+    padding: 10px;
 }
 
 .intro-greeting {
@@ -251,6 +251,7 @@ a:link {
 .goal {
     font-size: 18px;
     line-height: 1.5;
+    justify-content: center;
 } 
 
 .work-container {
