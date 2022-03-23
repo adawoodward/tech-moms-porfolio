@@ -43,7 +43,6 @@
         display: flex;
         justify-content: space-between;
         -webkit-justify-content: space-between;
-        /* align-items: center; */
         margin-right: 25px;
         align-items: center;
         flex-wrap: wrap;
@@ -57,57 +56,6 @@
         margin: 0 20px;
         align-items: flex-end;
     }
-
-
-    /* body {
-        margin: 0;
-        font-family: 'Fredoka', sans-serif;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-rows: 16vh;
-        grid-template-columns: 25vw 50vw 25vw;
-        width: 100%;
-        padding-bottom: 10px;
-        background-color: #f0e9e0;
-    }
-
-    .header-container {
-        grid-column: 1/4;
-        grid-row: 1;
-        background-color: #f0e9e0;
-        height: 15vh;
-    }
-
-    .logo {
-        float: left;
-        position: absolute;
-        left: 45px;
-        top: 12px;
-        align-items: flex-start;
-    }
-
-    .filler  {
-        flex-grow: 1;
-    }
-
-    .header-flex {
-        display: flex;
-        justify-content: end;
-        -webkit-justify-content: flex-end;
-        align-items: center;
-        margin-top: 40px;
-        margin-right: 25px;
-    }
-
-    .header-flex a {
-        font-size: 15px;
-        color: #333;
-        font-weight: 900;
-        margin: 0 20px;
-        align-items: center;
-    } */
 
     a:hover {
         color: gray;
@@ -192,18 +140,11 @@
         font-family: 'Fredoka', sans-serif;
         padding-top: 25px;
         padding-bottom: 20px;
-        /* margin-top: 30px; */
-        /* margin-bottom: 10px; */
-        /* padding-left: 20px; */
         justify-content: center;
     }
 
     .intro-title {
         display: flex;
-        /* background-image: url(assets/mint-box.png);
-        background-repeat: no-repeat;
-        background-size: 600px 600px; */
-        /* justify-content: center; */
         flex-direction: column;
         justify-content: flex-start;
         margin-right: 80px;
@@ -214,7 +155,6 @@
 
     .intro-tagline {
         font-size: 18px;
-        /* line-height: 25px; */
         color: #333;
         padding-top: 5px;
         align-items: center;
@@ -480,27 +420,16 @@
         grid-column: 2/3;
         grid-row: 1/3;
         background-color: #124c59;
-        /* height: 550px; */
         align-items: center;
-        /* margin-left: 20px; */
         background-image: url(assets/mint-box.png);
         background-repeat: no-repeat;
-        background-size: 90% 100%;
-        /* justify-content: center; */
+        background-size: 83% 100%;
         display: flex;
         flex-direction: column;
         justify-content: left;
         margin: 10px;
         padding: 30px;
     }
-    
-    /* .title-container {
-        background-image: url(assets/mint-box.png);
-        background-repeat: no-repeat;
-        background-size: 500px 500px;
-        justify-content: center;
-    } */
-    
     
     .accent-container {
         align-content: center;
@@ -534,29 +463,20 @@
         font-family: 'Fredoka', sans-serif;
         padding-top: 25px;
         padding-bottom: 20px;
-        /* margin-top: 30px; */
-        /* margin-bottom: 10px; */
-        /* padding-left: 20px; */
         justify-content: center;
     }
     
     .intro-title {
         display: flex;
-        /* background-image: url(assets/mint-box.png);
-        background-repeat: no-repeat;
-        background-size: 600px 600px; */
-        /* justify-content: center; */
         flex-direction: column;
         justify-content: flex-start;
-        margin-right: 80px;
-        /* margin-left: 30px; */
+        margin-right: 150px;
         padding-top: 20px;
     }
     
     
     .intro-tagline {
         font-size: 18px;
-        /* line-height: 25px; */
         color: #333;
         padding-top: 5px;
         align-items: center;
